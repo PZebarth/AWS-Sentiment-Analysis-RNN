@@ -27,3 +27,6 @@ After you have finished, close the terminal window.
 ### Open and run SageMaker Project.ipynb
 
 Now that the repository has been cloned into the notebook instance you may navigate to the notebook. Any additional instructions are contained in the notebook.
+
+
+![alt text](https://github.com/PZebarth/AWS-Sentiment-Analysis-RNN/blob/main/output.png?raw=true)
