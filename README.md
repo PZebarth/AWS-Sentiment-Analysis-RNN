@@ -28,5 +28,10 @@ After you have finished, close the terminal window.
 
 Now that the repository has been cloned into the notebook instance you may navigate to the notebook. Any additional instructions are contained in the notebook.
 
+### Using Web App
+
+![alt text](https://github.com/PZebarth/AWS-Sentiment-Analysis-RNN/blob/main/Web App Diagram.svg?raw=true)
+
 
 ![alt text](https://github.com/PZebarth/AWS-Sentiment-Analysis-RNN/blob/main/output.png?raw=true)
+![alt text](https://github.com/PZebarth/AWS-Sentiment-Analysis-RNN/blob/main/output_2.png?raw=true)
