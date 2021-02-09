@@ -30,7 +30,7 @@ Now that the repository has been cloned into the notebook instance you may navig
 
 ### Using Web App
 
-![alt text](https://github.com/PZebarth/AWS-Sentiment-Analysis-RNN/blob/main/Web App Diagram.svg?raw=true)
+![alt text](https://github.com/PZebarth/AWS-Sentiment-Analysis-RNN/blob/main/Web%20App%20Diagram.svg?raw=true)
 
 
 ![alt text](https://github.com/PZebarth/AWS-Sentiment-Analysis-RNN/blob/main/output.png?raw=true)
