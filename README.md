@@ -28,10 +28,18 @@ After you have finished, close the terminal window.
 
 Now that the repository has been cloned into the notebook instance you may navigate to the notebook. Any additional instructions are contained in the notebook.
 
-### Using Web App
+### Web App Framework
 
 ![alt text](https://github.com/PZebarth/AWS-Sentiment-Analysis-RNN/blob/main/Web%20App%20Diagram.svg?raw=true)
 
+The diagram above gives an overview of how the various services will work together. On the far right is the model which we trained above and which is deployed using SageMaker. On the far left is our web app that collects a user's movie review, sends it off and expects a positive or negative sentiment in return.
 
+In the middle is where some of the magic happens. We will construct a Lambda function, which you can think of as a straightforward Python function that can be executed whenever a specified event occurs. We will give this function permission to send and recieve data from a SageMaker endpoint.
+
+Lastly, the method I will use to execute the Lambda function is a new endpoint that I will create using API Gateway. This endpoint will be a url that listens for data to be sent to it. Once it gets some data it will pass that data on to the Lambda function and then return whatever the Lambda function returns. Essentially it will act as an interface that lets the web app communicate with the Lambda function.
+
+Web app: 
 ![alt text](https://github.com/PZebarth/AWS-Sentiment-Analysis-RNN/blob/main/output.png?raw=true)
+
+Web app prediction example:
 ![alt text](https://github.com/PZebarth/AWS-Sentiment-Analysis-RNN/blob/main/output_2.png?raw=true)
